@@ -1,6 +1,10 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+let theWord = []
+for (letter of word) {
+  theWord.unshift(letter)
 }
+return theWord.join('') === word? true: false
+ }
 
 /* 
   Add your pseudocode here
